@@ -2,8 +2,7 @@
 
 # Movie Recommendation System
 
-This repository contains a Movie Recommendation System built using collaborative filtering techniques and implemented in Jupyter Notebook.
-
+With this, I created a movie recommendation system that uses NLP and machine learning to match movies to users’ tastes. It breaks down movie descriptions and genres with NLP, interprets the movie’s content and suggests films that are similar. To improve the accuracy of its suggestions, the system clusters movies grouping them by their themes or genres with K-Means. The project relies on Python and library packages like Pandas, Scikit-learn and Tkinter to process, model and present its interface for users. Recommendations are generated with the help of the MovieLens dataset which holds thousands of real feedback sent in by users. That is why the system can help anyone who wants to watch new films similar to those they like.
 ## Features
 
 - **Collaborative Filtering**: Recommends movies based on user preferences and ratings.
